@@ -1,12 +1,14 @@
-
-
-import './App.css'
+import "./App.css"
 import CountDown from './CountDown'
+import Debouncing from "./Debouncing"
 
 function App() {
- 
-  return(
-    <CountDown/>
+  return (
+    <div>
+      {/* <CountDown/>
+       */}
+       <Debouncing/>
+    </div>
   )
 }
 
