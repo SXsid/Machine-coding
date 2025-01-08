@@ -1,7 +1,8 @@
 import "./App.css"
+import CountriesList from "./Debouncing"
 // import CountDown from './CountDown'
 // import Debouncing from "./Debouncing"
-import TextHighligter from "./TextHighligter"
+// import TextHighligter from "./TextHighligter"
 
 function App() {
   return (
@@ -9,7 +10,8 @@ function App() {
       {/* <CountDown/>
        */}
        {/* <Debouncing/> */}
-       <TextHighligter/>
+       {/* <TextHighligter/> */}
+       <CountriesList/>
     </div>
   )
 }

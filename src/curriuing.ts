@@ -13,3 +13,22 @@ const sum = (a:number)=>{
 }
 //@ts-ignore
 console.log(sum(2)(3)());
+
+
+
+//@ with colosru(just to incapluat the data)
+
+
+const sumb = (a)=>{
+    let res =0;
+    const inner = (a)=>{
+        if(a===undefined){
+            return res;
+        }
+        res+=a;
+        return inner
+    }
+    return inner(a)
+}
+console.log(sumb(2)(3)(4)());
+
