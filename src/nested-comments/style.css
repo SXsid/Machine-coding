@@ -1,0 +1,29 @@
+.main-cotnatiner{
+    display: flex;
+    
+    margin-top: 10px;
+    width: fit-content;
+}
+.main-reply{
+    display: flex;
+    gap: 20px;
+}
+.reply-container{
+    width:500px;
+    display: flex;
+    gap: 10px;
+}
+.add-button{
+    background:rgba(23, 73, 201, 0.932);
+    min-width: 100px;
+    cursor: pointer;
+}
+
+.comment-container{
+    background-color:rgba(187, 180, 180, 0.594);
+    border: none;
+    border-radius: 10px;
+    width: 700px;
+    padding-right: 4px;
+    padding-left: 4px;
+}
